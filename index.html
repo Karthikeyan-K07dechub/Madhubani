@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1.0"
+         />
+      <title>Madhubani</title>
+      <link rel="stylesheet" href="./index.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link
+         rel="preconnect"
+         href="https://fonts.gstatic.com"
+         crossorigin
+         />
+      <link
+         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+         rel="stylesheet"
+         />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+         rel="stylesheet"
+         />
+   </head>
+   <body>
+      <section class="reels-section">
+         <div class="reels-section__inner">
+            <header class="reels-header">
+               <p class="reels-eyebrow">AS SEEN ON REELS</p>
+               <h2 class="reels-title">
+                  Crafted for the
+                  <span class="reels-title__highlight">Moving Image</span>
+               </h2>
+               <p class="reels-subtitle">
+                  Every jewel, alive in motion. Watch our artisans, bridal moments
+                  &amp; new arrivals.
+               </p>
+            </header>
+            <div class="reels-track-wrap">
+               <div
+                  class="reels-track"
+                  id="reelsTrack"
+                  >
+                  <article
+                     class="reel-card"
+                     data-video="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                     >
+                     <div class="reel-media">
+                        <img
+                           class="reel-thumb"
+                           src="./assets/reel-thumbnail-1.png"
+                           alt="Reel thumbnail 1"
+                           />
+                        <video
+                           class="reel-video"
+                           playsinline
+                           preload="none"
+                           ></video>
+                        <button
+                           class="reel-play-btn"
+                           type="button"
+                           aria-label="Play reel"
+                           >
+                        <span class="play-triangle"></span>
+                        </button>
+                        <div class="reel-bottom-fade reel-bottom-fade--mobile"></div>
+                     </div>
+                  </article>
+                  <article
+                     class="reel-card"
+                     data-video="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                     >
+                     <div class="reel-media">
+                        <img
+                           class="reel-thumb"
+                           src="./assets/reel-thumbnail-2.png"
+                           alt="Reel thumbnail 2"
+                           />
+                        <video
+                           class="reel-video"
+                           playsinline
+                           preload="none"
+                           ></video>
+                        <button
+                           class="reel-play-btn"
+                           type="button"
+                           aria-label="Play reel"
+                           >
+                        <span class="play-triangle"></span>
+                        </button>
+                        <div class="reel-bottom-fade reel-bottom-fade--mobile"></div>
+                     </div>
+                  </article>
+                  <article
+                     class="reel-card"
+                     data-video="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                     >
+                     <div class="reel-media">
+                        <img
+                           class="reel-thumb"
+                           src="./assets/reel-thumbnail-1.png"
+                           alt="Reel thumbnail 3"
+                           />
+                        <video
+                           class="reel-video"
+                           playsinline
+                           preload="none"
+                           ></video>
+                        <button
+                           class="reel-play-btn"
+                           type="button"
+                           aria-label="Play reel"
+                           >
+                        <span class="play-triangle"></span>
+                        </button>
+                        <div class="reel-bottom-fade reel-bottom-fade--mobile"></div>
+                     </div>
+                  </article>
+               </div>
+            </div>
+            <div
+               class="reels-dots"
+               id="reelsDots"
+               aria-label="Reel navigation"
+               >
+               <button
+                  class="diamond-dot is-active"
+                  type="button"
+                  aria-label="Go to slide 1"
+                  ></button>
+               <button
+                  class="diamond-dot"
+                  type="button"
+                  aria-label="Go to slide 2"
+                  ></button>
+               <button
+                  class="diamond-dot"
+                  type="button"
+                  aria-label="Go to slide 3"
+                  ></button>
+            </div>
+         </div>
+      </section>
+      <script src="./index.js"></script>
+   </body>
+</html>
